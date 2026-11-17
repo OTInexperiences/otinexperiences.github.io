@@ -1,6 +1,6 @@
 ### About This Website
 
-This website is to be a recreation of my dad's original blog, [otinexperiences.co.uk/blog](https://otinexperiences.co.uk/blog).
+This website is to be a recreation of my dad's original blog, [www.otinexperiences.co.uk/blog](https://otinexperiences.co.uk/blog).
 
 It is currently being rebuilt using web scrapers, old photographs, and a WordPress backup I've luckily managed to recover. I'm doing this in order to preserve his work, memories, and the little piece of the internet he created.
 
