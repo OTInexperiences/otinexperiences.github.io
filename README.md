@@ -15,3 +15,5 @@ I've already rewritten and extended some of his original software in Python to b
 To distinguish between the original blog and my own contributions, all restored posts will retain my dad's name and their original publication dates wherever possible. Any new posts, software updates, or additions will be clearly identified as being written or created by me.
 
 I do hope you'll stick around, and that one day I might contribute to the OT community just as my father did.
+
+Steve
