@@ -15,6 +15,7 @@ redirect_from:
 ---
 This site reflects my interest in Ornamental Turning (OT) , Mathematics  particularly geometry and computer programming. I have built a Rose engine that uses stepper motors and software to control the motion of the headstock instead of the traditional rosettes. In fact I am using  software rosettes generated using a designer I am writing called OTWorkbench. This designer which is a simulation of a rose engine allows me to generate Gcode that defines the movement of the headstock. I use a free piece of software called <a href="http://linuxcnc.org/" target="_self"> Emc</a> to actually control the stepper motors.
 
+<<<<<<< HEAD
 <figure class="wp-recovered-caption">
 <a href="{{ '/assets/recovered/bbcc75c0d2-IMG_0068.jpg' | relative_url }}"><img alt="" class="size-large wp-image-899" height="473" src="{{ '/assets/recovered/056df7c839-IMG_0068-1024x757.jpg' | relative_url }}" title="IMG_0068" width="640"/></a>
 <figcaption>Rose engine setup</figcaption>
@@ -33,3 +34,16 @@ The picture above shows the finished machine together with its overhead drive in
 <li>Linear movement in direction of cutter which can be set at any angle in the horizontal plane through the centre of the main spindle by rotating the tool post. Using a stepper motor in half step mode connected to an acme screw of 3mm pitch giving 0.0075mm per step.</li>
 </ol>
 <a href="{{ '/assets/recovered/Directions-labelled-150x150.png' | relative_url }}"><img alt="Directions of movement, labelled X, Y, B and V" class="alignnone wp-image-939" height="150" src="{{ '/assets/recovered/Directions-labelled-150x150.png' | relative_url }}" title="Directions" width="150"/></a>
+=======
+This website is to be a recreation of my dad's original blog, [www.otinexperiences.co.uk/blog](https://otinexperiences.co.uk/blog).
+
+It is currently being rebuilt using web scrapers, old photographs and a WordPress backup I've luckily managed to recover. I'm doing this in order to preserve his work, memories, and the little piece of the internet he created.
+
+My aim is to keep the spirit of the original blog alive while making it accessible for years to come.
+
+You can find my dad's original code on [GitHub](https://github.com/alanbattersby).
+
+Alongside restoring the original content, I may one day add some posts of my own, continuing the blog in my own way while staying true to its roots. Apple trees and the like! If I do then to distinguish between the original blog and my own contributions, all restored posts will retain my dad's name and their original publication dates wherever possible. Any new posts, software updates, or additions will be clearly identified as being written or created by me.
+
+Steve
+>>>>>>> 68c8b45ee3c9f406d65af7584517a69e168aaa52
