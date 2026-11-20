@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Original image to be sourced">
+<rect width="800" height="500" fill="#f0f0f0"/>
+<rect x="22" y="22" width="756" height="456" rx="12" fill="none" stroke="#9b9b9b" stroke-width="3" stroke-dasharray="10 8"/>
+<g fill="none" stroke="#777" stroke-width="9" stroke-linejoin="round"><rect x="340" y="125" width="120" height="95" rx="8"/><circle cx="375" cy="154" r="11"/><path d="M348 206l32-30 22 20 21-17 30 27"/></g>
+<text x="400" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" fill="#444">Original image to be sourced</text>
+<text x="400" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#666">Historical photograph not yet recovered</text>
+</svg>

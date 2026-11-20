@@ -1,0 +1,13 @@
+{%- assign sitemap_children = site.pages | where: "parent", include.parent_url | sort: "title" -%}
+{%- if sitemap_children.size > 0 -%}
+<ul>
+  {%- for sitemap_child in sitemap_children -%}
+    {%- if sitemap_child.title and sitemap_child.url != include.parent_url -%}
+    <li>
+      <a href="{{ sitemap_child.url | relative_url }}">{{ sitemap_child.title | escape }}</a>
+      {%- include sitemap-children.html parent_url=sitemap_child.url -%}
+    </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
+{%- endif -%}

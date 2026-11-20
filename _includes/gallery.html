@@ -1,0 +1,21 @@
+{% assign gallery_items = site.data.galleries[include.name] %}
+{% if gallery_items %}
+<div class="oti-gallery" aria-label="{{ include.name | replace: '-', ' ' | escape }} gallery">
+  {% for item in gallery_items %}
+  <figure class="oti-gallery-item">
+    {% if item.image %}
+      <a class="oti-gallery-link" href="{{ item.image | relative_url }}" target="_blank" rel="noopener">
+        <img class="oti-gallery-image" src="{{ item.image | relative_url }}" alt="{{ item.caption | default: item.title | default: item.filename | escape }}" loading="lazy">
+      </a>
+    {% else %}
+      <div class="oti-gallery-missing" role="img" aria-label="Missing photograph {{ item.filename | escape }}">
+        <strong>Photograph pending</strong><small>{{ item.filename | escape }}</small><small>WordPress ID {{ item.id }}</small>
+      </div>
+    {% endif %}
+    <figcaption>{{ item.caption | default: item.title | default: item.filename | escape }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+{% else %}
+<p>Gallery data unavailable.</p>
+{% endif %}

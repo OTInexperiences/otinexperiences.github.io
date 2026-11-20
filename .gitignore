@@ -1,5 +1,21 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll generated files
+_site/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.sass-cache/
+
+# Ruby dependencies
+vendor/
+
+# Local backups
+_backup/
+*.back
+*.bak
+
+# Local VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

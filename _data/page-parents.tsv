@@ -1,0 +1,129 @@
+url	parent
+/3d-printer-designs/	
+/3d-printer-software/	
+/about-2/first-attempts/	/about/
+/about/	
+/app-rose-page/	
+/app-ross-page/	
+/app-wheels-page/	
+/b201/	
+/b202/	
+/b203/	
+/b204/	
+/b205/	
+/b206/	
+/b207/	
+/b208/	
+/b209/	
+/b210/	
+/b211/	
+/b212/	
+/b213/	
+/b214/	
+/bazley-chuck-page/	
+/bazley-patterns/	
+/bowls-and-platters/	
+/boxes/	
+/building-the-loom-frame/	
+/components/	
+/contact-me/	
+/cutting-a-wave-pattern-along-the-side-of-a-piece/	
+/cutting-frame-and-drilling-spindle/	
+/cutting-internal-gears/	/miscellaneous/
+/equipment/	
+/example-using-a-repeat/	
+/explorations-in-gear-cutting-part-1/	/miscellaneous/
+/gallery/	
+/geometric-chuck-2/	
+/geometric-chuck-2/geometric-chuck-patterns/	/geometric-chuck-2/
+/grose-for-use-on-a-standard-mill/	
+/grose-user-guide/	
+/heddle-frames/	
+/latest-hardware-2190/	
+/miscellaneous-items/	
+/miscellaneous/	
+/my-current-setup/	
+/my-projects/	
+/netduino-fez-panda-2/	
+/new-rose-engine-electronics/	
+/new-rose-engine-spindle/	
+/new-rose-engine/	
+/omerod-build/	
+/otwb-windows-8-app-todo-list/	
+/otwb-windows-8-app/	
+/patterns/	
+/printer-modifications/	
+/reprap-3d-printer/	
+/roadmap/	
+/rose-engine-mark-2/	
+/rose-engine-mark-2/accessories/	/rose-engine-mark-2/
+/rose-engine-mark-2/accessories/chucks/	/rose-engine-mark-2/accessories/
+/rose-engine-mark-2/accessories/leveling-plate/	/rose-engine-mark-2/accessories/
+/rose-engine-mark-2/accessories/tailstock/	/rose-engine-mark-2/accessories/
+/rose-engine-mark-2/cutters/	/rose-engine-mark-2/
+/rose-engine-project/	
+/rosette-carrier/	
+/ross-patterns/	
+/sharpening-cutters/	
+/site-map/	
+/software/	
+/software/development/	/software/
+/software/g-code-examples/	/software/
+/software/g-code-examples/cutting-flutes-on-a-box-lid/	/software/g-code-examples/
+/software/g-code-examples/cutting-helices/	/software/g-code-examples/
+/software/g-code-examples/cutting-spirals/	/software/g-code-examples/
+/software/g-code-examples/g-code-based-rose-engine-simulator/	/software/g-code-examples/
+/software/g-code-examples/g-code-based-rose-engine-simulator/grose-examples/	/software/g-code-examples/g-code-based-rose-engine-simulator/
+/software/g-code-examples/g-code-based-rose-engine-simulator/using-grose/	/software/g-code-examples/g-code-based-rose-engine-simulator/
+/software/g-code-examples/gcode-for-badge/	/software/g-code-examples/
+/software/g-code-examples/indexing/	/software/g-code-examples/
+/software/g-code-examples/using-profiles/	/software/g-code-examples/
+/software/g-code-examples/wave-rosette/	/software/g-code-examples/
+/software/geometric-chuck/	/software/
+/software/ornamental-turning-workbench/	/software/
+/software/ornamental-turning-workbench/general-introduction/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/general-introduction/configuration-file/	/software/ornamental-turning-workbench/general-introduction/
+/software/ornamental-turning-workbench/general-introduction/project-information-file/	/software/ornamental-turning-workbench/general-introduction/
+/software/ornamental-turning-workbench/lattice-designs/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/paths/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/paths/action-points-and-action-blocks/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/areas/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/path-groups/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/path-references/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/simple-paths/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/transformations/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/using-an-area/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/paths/using-area-action-blocks/	/software/ornamental-turning-workbench/paths/
+/software/ornamental-turning-workbench/preferred-path-display/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/project-information/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/project-information/chuck/	/software/ornamental-turning-workbench/project-information/
+/software/ornamental-turning-workbench/project-information/surface/	/software/ornamental-turning-workbench/project-information/
+/software/ornamental-turning-workbench/rose-engine-project-2/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/rose-engine-project-2/code-generator-display/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/headstock-display/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/model-explorer/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/path-generator-display/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/property-explorer/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/rose-engine-addon-for-my-woodturning-lathe/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/tool-path-display/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rose-engine-project-2/vertex-explorer/	/software/ornamental-turning-workbench/rose-engine-project-2/
+/software/ornamental-turning-workbench/rosette/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/rosette/blending-rosettes/	/software/ornamental-turning-workbench/rosette/
+/software/ornamental-turning-workbench/rosette/epicycloid-rosette/	/software/ornamental-turning-workbench/rosette/
+/software/ornamental-turning-workbench/rosette/hypocycloid-rosette/	/software/ornamental-turning-workbench/rosette/
+/software/ornamental-turning-workbench/rosette/polygonal-rosette/	/software/ornamental-turning-workbench/rosette/
+/software/ornamental-turning-workbench/rosette/wave-rosette/	/software/ornamental-turning-workbench/rosette/
+/software/ornamental-turning-workbench/software-download/	/software/ornamental-turning-workbench/
+/software/ornamental-turning-workbench/software-download/development/	/software/ornamental-turning-workbench/software-download/
+/software/software-windows/	/software/
+/software/software-windows/bugs-and-problems-with-my-software/	/software/software-windows/
+/software/software-windows/geometric-chuck/	/software/software-windows/
+/spindle-phase-example/	
+/spiral-pattern-described-by-bill-ooms/	
+/the-geometric-chuck/	/geometric-chuck-2/
+/timing-pulleys/	
+/using-emc-parameters-absolute-example/	
+/using-emc-parameters-relative-example/	
+/weaving-loom/	/miscellaneous/
+/wheels-path-gallery/	
+/wheels-patterns/	

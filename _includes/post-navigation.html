@@ -1,0 +1,13 @@
+<nav class="post-navigation" aria-label="Post navigation">
+
+  {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}">PREV</a>
+  {% endif %}
+
+  <a href="#top" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">TOP</a>
+
+  {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}">NEXT</a>
+  {% endif %}
+
+</nav>

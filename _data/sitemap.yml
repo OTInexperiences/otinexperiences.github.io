@@ -1,0 +1,153 @@
+- title: Gallery
+  url: /gallery/
+- title: Software
+  url: /software/
+  children:
+  - title: Development
+    url: /software/development/
+  - title: G code Examples
+    url: /software/g-code-examples/
+    children:
+    - title: Cutting flutes on a box lid
+      url: /software/g-code-examples/cutting-flutes-on-a-box-lid/
+    - title: Cutting Helices
+      url: /software/g-code-examples/cutting-helices/
+    - title: Cutting spirals
+      url: /software/g-code-examples/cutting-spirals/
+    - title: G Code based Rose engine simulator
+      url: /software/g-code-examples/g-code-based-rose-engine-simulator/
+      children:
+      - title: GRose Examples
+        url: /software/g-code-examples/g-code-based-rose-engine-simulator/grose-examples/
+      - title: Using GRose
+        url: /software/g-code-examples/g-code-based-rose-engine-simulator/using-grose/
+    - title: Gcode for Badge
+      url: /software/g-code-examples/gcode-for-badge/
+    - title: Indexing
+      url: /software/g-code-examples/indexing/
+    - title: Using Profiles
+      url: /software/g-code-examples/using-profiles/
+    - title: Wave Rosette
+      url: /software/g-code-examples/wave-rosette/
+  - title: Geometric Chuck
+    url: /software/geometric-chuck/
+  - title: Ornamental Turning Workbench
+    url: /software/ornamental-turning-workbench/
+    children:
+    - title: General Introduction
+      url: /software/ornamental-turning-workbench/general-introduction/
+      children:
+      - title: Configuration File
+        url: /software/ornamental-turning-workbench/general-introduction/configuration-file/
+      - title: Project Information File
+        url: /software/ornamental-turning-workbench/general-introduction/project-information-file/
+    - title: Lattice Designs
+      url: /software/ornamental-turning-workbench/lattice-designs/
+    - title: Paths
+      url: /software/ornamental-turning-workbench/paths/
+      children:
+      - title: Action Points and Action Blocks
+        url: /software/ornamental-turning-workbench/paths/action-points-and-action-blocks/
+      - title: Areas
+        url: /software/ornamental-turning-workbench/paths/areas/
+      - title: Path Groups
+        url: /software/ornamental-turning-workbench/paths/path-groups/
+      - title: Path References
+        url: /software/ornamental-turning-workbench/paths/path-references/
+      - title: Simple Paths
+        url: /software/ornamental-turning-workbench/paths/simple-paths/
+      - title: Transformations
+        url: /software/ornamental-turning-workbench/paths/transformations/
+      - title: Using an Area
+        url: /software/ornamental-turning-workbench/paths/using-an-area/
+      - title: Using Area Action Blocks
+        url: /software/ornamental-turning-workbench/paths/using-area-action-blocks/
+    - title: Preferred Path Display
+      url: /software/ornamental-turning-workbench/preferred-path-display/
+    - title: Project Information
+      url: /software/ornamental-turning-workbench/project-information/
+      children:
+      - title: Chuck
+        url: /software/ornamental-turning-workbench/project-information/chuck/
+      - title: Surface
+        url: /software/ornamental-turning-workbench/project-information/surface/
+    - title: Rose Engine Project
+      url: /software/ornamental-turning-workbench/rose-engine-project-2/
+      children:
+      - title: Code Generator Display
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/code-generator-display/
+      - title: Headstock Display
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/headstock-display/
+      - title: Model Explorer
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/model-explorer/
+      - title: Path Generator Display
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/path-generator-display/
+      - title: Property explorer
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/property-explorer/
+      - title: Rose Engine add on for my woodturning lathe
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/rose-engine-addon-for-my-woodturning-lathe/
+      - title: Tool Path Display
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/tool-path-display/
+      - title: Vertex Explorer
+        url: /software/ornamental-turning-workbench/rose-engine-project-2/vertex-explorer/
+    - title: Rosette
+      url: /software/ornamental-turning-workbench/rosette/
+      children:
+      - title: Blending Rosettes
+        url: /software/ornamental-turning-workbench/rosette/blending-rosettes/
+      - title: Epicycloid Rosette
+        url: /software/ornamental-turning-workbench/rosette/epicycloid-rosette/
+      - title: Hypocycloid Rosette
+        url: /software/ornamental-turning-workbench/rosette/hypocycloid-rosette/
+      - title: Polygonal Rosette
+        url: /software/ornamental-turning-workbench/rosette/polygonal-rosette/
+      - title: Wave Rosette
+        url: /software/ornamental-turning-workbench/rosette/wave-rosette/
+    - title: Software Download
+      url: /software/ornamental-turning-workbench/software-download/
+      children:
+      - title: Development History
+        url: /software/ornamental-turning-workbench/software-download/development/
+  - title: Software (Windows)
+    url: /software/software-windows/
+    children:
+    - title: Bugs and Problems with my Software
+      url: /software/software-windows/bugs-and-problems-with-my-software/
+    - title: Geometric Chuck
+      url: /software/software-windows/geometric-chuck/
+- title: Geometric Chuck
+  url: /geometric-chuck-2/
+  children:
+  - title: Geometric Chuck Patterns
+    url: /geometric-chuck-2/geometric-chuck-patterns/
+  - title: The Geometric Chuck
+    url: /the-geometric-chuck/
+- title: Rose Engine Mark 2
+  url: /rose-engine-mark-2/
+  children:
+  - title: Accessories
+    url: /rose-engine-mark-2/accessories/
+    children:
+    - title: Chucks
+      url: /rose-engine-mark-2/accessories/chucks/
+    - title: Leveling Plate
+      url: /rose-engine-mark-2/accessories/leveling-plate/
+    - title: Tailstock
+      url: /rose-engine-mark-2/accessories/tailstock/
+  - title: Cutters
+    url: /rose-engine-mark-2/cutters/
+- title: New rose engine
+  url: /new-rose-engine/
+- title: Miscellaneous
+  url: /miscellaneous/
+  children:
+  - title: Cutting internal gears
+    url: /cutting-internal-gears/
+  - title: Explorations in Gear cutting Part 1
+    url: /explorations-in-gear-cutting-part-1/
+  - title: Weaving Loom
+    url: /weaving-loom/
+- title: Contact Me
+  url: /contact-me/
+- title: About this blog
+  url: /about/

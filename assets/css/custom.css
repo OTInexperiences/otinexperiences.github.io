@@ -1,0 +1,484 @@
+/*
+ * OTInexperiences - custom.css
+ * Sections are grouped by feature. Existing site styles are retained.
+ * Blog post footer updated to match the title / metadata / buttons layout.
+ */
+
+/* ==========================================================================
+   01. SITE HEADER & GLOBAL BEHAVIOUR
+   ========================================================================== */
+
+html {
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+/* Remove Minima's dark top border */
+.site-header {
+  border-top: none;
+}
+
+
+/* Position navigation beneath the site title */
+.site-header .site-nav {
+  float: none;
+  position: static;
+  clear: both;
+  display: block;
+  margin-top: 12px;
+}
+
+/* Allow navigation links to wrap onto another line */
+.site-header .site-nav .trigger {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
+/* Remove Minima's default link spacing */
+.site-header .site-nav .page-link {
+  margin-left: 0;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+/* ==========================================================================
+   02. SITE FOOTER
+   ========================================================================== */
+
+/* OTInexperiences footer */
+
+.oti-footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.oti-footer-top p {
+  margin: 6px 0 0;
+  color: #828282;
+}
+
+.oti-footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 16px;
+  margin-top: 20px;
+}
+
+.footer-navigation a,
+.oti-footer-contact a {
+  text-decoration: none;
+}
+
+.footer-navigation a:hover,
+.oti-footer-contact a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   03. POST CONTENT & IMAGES
+   ========================================================================== */
+
+/* Responsive images */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Centre standalone images */
+.post-content p > img,
+.post-content p > a > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* WordPress image alignment */
+.post-content img.alignleft,
+.post-content img.alignright,
+.post-content img.aligncenter {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+
+/* WordPress caption containers */
+.post-content .wp-caption,
+.post-content figure {
+  float: none;
+  display: table;
+  max-width: 100%;
+  margin: 1.5rem auto;
+}
+
+/* Images inside caption containers */
+.post-content .wp-caption img,
+.post-content figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Captions remain directly below their images */
+.post-content .wp-caption-text,
+.post-content figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.35rem 0 0;
+}
+
+/* Clear any remaining legacy floats */
+.post-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Standard image sizing and borders */
+
+.post-content img {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+
+  padding: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   04. PHOTO GALLERIES & GALLERY LANDING
+   ========================================================================== */
+
+.oti-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+.post-content .oti-gallery figure.oti-gallery-item {
+  display: block;
+  float: none;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  text-align: center;
+}
+.oti-gallery-link {
+  display: block;
+}
+.post-content .oti-gallery img.oti-gallery-image {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 180px;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  object-fit: contain;
+}
+.oti-gallery-missing {
+  display: flex;
+  box-sizing: border-box;
+  height: 180px;
+  padding: 12px;
+  border: 1px dashed #bbb;
+  background: #f6f6f6;
+  color: #555;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.oti-gallery-missing small {
+  font-size: .8rem;
+}
+.post-content .oti-gallery figcaption {
+  margin: .4rem 0 0;
+  font-size: .85rem;
+  color: #666;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+
+
+.gallery-landing {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 28px 0 36px;
+}
+
+.gallery-category {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Gallery landing page - uniform image sizes */
+
+.gallery-category-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 8px;
+  background: #f3f3f3;
+  box-sizing: border-box;
+}
+
+.gallery-category-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.gallery-category-image span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.gallery-category h2 {
+  margin: 12px 0 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.gallery-category:hover h2 {
+  color: #1756a9;
+  text-decoration: underline;
+}
+
+.gallery-category:hover .gallery-category-image {
+  border-color: #999;
+}
+
+/* Single column on narrow screens */
+@media (max-width: 600px) {
+  .gallery-landing {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* ==========================================================================
+   05. BLOG POST FOOTER & NAVIGATION
+   ========================================================================== */
+
+/* Post title and metadata between two pale-grey rules */
+.post-footer {
+  margin-top: 35px;
+}
+
+.post-footer-details {
+  text-align: center;
+  padding: 18px 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-footer-title {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.post-footer-meta {
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.post-footer-meta a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* PREV / TOP / NEXT controls */
+.post-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 0;
+  border: none;
+}
+
+.post-navigation a {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fafafa;
+  color: #333;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.post-navigation a:hover {
+  background: #e8e8e8;
+}
+
+/* ==========================================================================
+   06. CATEGORY PAGES
+   ========================================================================== */
+
+/* Categories page */
+
+#category-detail {
+  margin-bottom: 30px;
+}
+
+#category-detail h2 {
+  margin-bottom: 20px;
+}
+
+#category-description {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+#category-posts,
+.all-categories {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#category-posts li,
+.all-categories li {
+  margin-bottom: 5px;
+}
+
+#category-posts a,
+.all-categories a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Category listings */
+
+.category-section {
+  padding-top: 25px;
+  margin-bottom: 45px;
+  border-bottom: 1px solid #eee;
+  scroll-margin-top: 20px;
+}
+
+.category-section:target {
+  border-left: 3px solid #aaa;
+  padding-left: 15px;
+}
+
+.category-section ul {
+  padding-left: 20px;
+}
+
+.category-section li {
+  margin-bottom: 5px;
+}
+
+.cat_title a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   07. YOUTUBE EMBEDS
+   ========================================================================== */
+
+/* Privacy-conscious YouTube player */
+
+.oti-youtube {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.oti-youtube-notice {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: auto;
+}
+
+.oti-youtube-notice p {
+  margin: 0 0 12px;
+}
+
+.oti-youtube-load {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.oti-youtube-load:hover {
+  background: #555;
+}
+
+.oti-youtube-load:focus-visible {
+  outline: 3px solid #1769aa;
+  outline-offset: 3px;
+}
+
+.oti-youtube iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 480px) {
+  .oti-youtube {
+    aspect-ratio: auto;
+    min-height: 320px;
+  }
+
+  .oti-youtube:has(iframe) {
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+  }
+
+  .oti-youtube-notice {
+    min-height: 320px;
+  }
+}

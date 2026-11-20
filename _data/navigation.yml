@@ -1,0 +1,20 @@
+- title: "Home"
+  url: "/"
+
+- title: "Blog"
+  url: "/blog/"
+
+- title: "About"
+  url: "/about/"
+
+- title: "Software"
+  url: "/software/"
+
+- title: "Machines & Equipment"
+  url: "/hardware/"
+
+- title: "Miscellaneous"
+  url: "/miscellaneous/"
+
+- title: "Gallery"
+  url: "/gallery/"
