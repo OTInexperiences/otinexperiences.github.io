@@ -15,7 +15,7 @@ redirect_from:
 ---
 This site reflects my interest in Ornamental Turning (OT) , Mathematics  particularly geometry and computer programming. I have built a Rose engine that uses stepper motors and software to control the motion of the headstock instead of the traditional rosettes. In fact I am using  software rosettes generated using a designer I am writing called OTWorkbench. This designer which is a simulation of a rose engine allows me to generate Gcode that defines the movement of the headstock. I use a free piece of software called <a href="http://linuxcnc.org/" target="_self"> Emc</a> to actually control the stepper motors.
 
-<<<<<<< HEAD
+
 <figure class="wp-recovered-caption">
 <a href="{{ '/assets/recovered/bbcc75c0d2-IMG_0068.jpg' | relative_url }}"><img alt="" class="size-large wp-image-899" height="473" src="{{ '/assets/recovered/056df7c839-IMG_0068-1024x757.jpg' | relative_url }}" title="IMG_0068" width="640"/></a>
 <figcaption>Rose engine setup</figcaption>
