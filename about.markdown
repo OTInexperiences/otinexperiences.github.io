@@ -34,16 +34,3 @@ The picture above shows the finished machine together with its overhead drive in
 <li>Linear movement in direction of cutter which can be set at any angle in the horizontal plane through the centre of the main spindle by rotating the tool post. Using a stepper motor in half step mode connected to an acme screw of 3mm pitch giving 0.0075mm per step.</li>
 </ol>
 <a href="{{ '/assets/recovered/Directions-labelled-150x150.png' | relative_url }}"><img alt="Directions of movement, labelled X, Y, B and V" class="alignnone wp-image-939" height="150" src="{{ '/assets/recovered/Directions-labelled-150x150.png' | relative_url }}" title="Directions" width="150"/></a>
-=======
-This website is to be a recreation of my dad's original blog, [www.otinexperiences.co.uk/blog](https://otinexperiences.co.uk/blog).
-
-It is currently being rebuilt using web scrapers, old photographs and a WordPress backup I've luckily managed to recover. I'm doing this in order to preserve his work, memories, and the little piece of the internet he created.
-
-My aim is to keep the spirit of the original blog alive while making it accessible for years to come.
-
-You can find my dad's original code on [GitHub](https://github.com/alanbattersby).
-
-Alongside restoring the original content, I may one day add some posts of my own, continuing the blog in my own way while staying true to its roots. Apple trees and the like! If I do then to distinguish between the original blog and my own contributions, all restored posts will retain my dad's name and their original publication dates wherever possible. Any new posts, software updates, or additions will be clearly identified as being written or created by me.
-
-Steve
->>>>>>> 68c8b45ee3c9f406d65af7584517a69e168aaa52
