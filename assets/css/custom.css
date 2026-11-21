@@ -26,13 +26,16 @@ html {
   clear: both;
   display: block;
   margin-top: 12px;
+  margin-bottom: 12px;
 }
 
-/* Allow navigation links to wrap onto another line */
-.site-header .site-nav .trigger {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
+/* Desktop navigation */
+@media screen and (min-width: 601px) {
+  .site-header .site-nav .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
 }
 
 /* Remove Minima's default link spacing */
@@ -480,5 +483,68 @@ html {
 
   .oti-youtube-notice {
     min-height: 320px;
+  }
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* Mobile navigation: visible Menu label */
+@media screen and (max-width: 600px) {
+  .site-header .site-nav label[for="nav-trigger"] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .site-header .site-nav .menu-text {
+    font-size: 14px;
+    color: #333;
+  }
+}
+
+/* Hide Menu label on desktop */
+@media screen and (min-width: 601px) {
+  .site-header .site-nav .menu-text {
+    display: none;
+  }
+}
+
+/* Mobile navigation: switch Menu / Close text */
+.site-header .site-nav .menu-close-text {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .site-header .site-nav #nav-trigger:checked
+    ~ label .menu-open-text {
+    display: none;
+  }
+
+  .site-header .site-nav #nav-trigger:checked
+    ~ label .menu-close-text {
+    display: inline;
+  }
+}
+
+/* Mobile navigation: hamburger becomes X when open */
+@media screen and (max-width: 600px) {
+
+  /* Hide the hamburger icon when expanded */
+  .site-header .site-nav #nav-trigger:checked
+    ~ label .menu-icon svg {
+    display: none;
+  }
+
+  /* Show an X in its place */
+  .site-header .site-nav #nav-trigger:checked
+    ~ label .menu-icon::after {
+    content: "×";
+    display: block;
+    font-size: 26px;
+    line-height: 15px;
+    color: #333;
+    text-align: center;
   }
 }
