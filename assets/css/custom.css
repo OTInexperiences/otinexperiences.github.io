@@ -90,6 +90,14 @@ html {
   text-decoration: underline;
 }
 
+/* Footer site title */
+.oti-footer-title {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #424242;
+}
+
 /* ==========================================================================
    03. POST CONTENT & IMAGES
    ========================================================================== */
