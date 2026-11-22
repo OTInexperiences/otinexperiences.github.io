@@ -20,6 +20,8 @@ I found that the top of the tool post was to large so I finished machining the j
 
 Here is a short movie of cutting the 100mm diameter ball from a bit of scrap pine.
 
-http://youtu.be/2qTi2aCfWrE
+{% include youtube.html id="2qTi2aCfWrE" %}
+
+And here is the direct url: http://youtu.be/2qTi2aCfWrE
 
  
