@@ -115,6 +115,8 @@
       url: /software/software-windows/bugs-and-problems-with-my-software/
     - title: Geometric Chuck
       url: /software/software-windows/geometric-chuck/
+  - title: Indexing — manual and CNC
+    url: /indexing/
 - title: Geometric Chuck
   url: /geometric-chuck-2/
   children:
@@ -138,6 +140,17 @@
     url: /rose-engine-mark-2/cutters/
 - title: New rose engine
   url: /new-rose-engine/
+  children:
+  - title: Rosette Carrier — initial design
+    url: /rosette-carrier/
+  - title: Rosette Carrier — version 1
+    url: /rosette-carrier-2/
+  - title: Cutting a Rosette
+    url: /cutting-a-rosette/
+  - title: Rubber Post
+    url: /rubber-post/
+  - title: Spring Mechanism
+    url: /spring-mechanism/
 - title: Miscellaneous
   url: /miscellaneous/
   children:
@@ -147,6 +160,8 @@
     url: /explorations-in-gear-cutting-part-1/
   - title: Weaving Loom
     url: /weaving-loom/
+  - title: Ormerod Modifications
+    url: /ormerod-modifications/
 - title: Contact Me
   url: /contact-me/
 - title: About this blog

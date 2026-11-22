@@ -23,3 +23,12 @@ I am building a new rose engine which may be either manually or computer control
 I have redesigned the motor bracket. You see the spindle below in its completed form, except for wiring up the motor. Also shown is version 1 of the Rosette carrier base.
 
 <a href="{{ '/assets/recovered/a65a52c6dd-3-IMG_0003.png' | relative_url }}"><img alt="3-IMG_0003" class="aligncenter size-full wp-image-2486" height="677" src="{{ '/assets/recovered/a65a52c6dd-3-IMG_0003.png' | relative_url }}" width="885"/></a>
+
+
+## Related construction pages
+
+- [Rosette Carrier — initial design]({{ '/rosette-carrier/' | relative_url }})
+- [Rosette Carrier — version 1]({{ '/rosette-carrier-2/' | relative_url }})
+- [Cutting a Rosette]({{ '/cutting-a-rosette/' | relative_url }})
+- [Rubber Post]({{ '/rubber-post/' | relative_url }})
+- [Spring Mechanism]({{ '/spring-mechanism/' | relative_url }})
